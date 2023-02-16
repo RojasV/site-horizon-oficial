@@ -545,12 +545,12 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Serviço desejado"
+                <input type="text" class="form-control" name="celphone" id="celphone" placeholder="(99) 9999-99999"
                   required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5"
-                  placeholder="Se quiser, descreva especificamente o que você procura, pois vamos nos empenhar em te responder com o máximo de clareza..."
+                  placeholder="Descreva especificamente o que você procura, pois vamos nos empenhar em te responder com o máximo de clareza..."
                   required></textarea>
               </div>
               <div class="my-3">
@@ -578,7 +578,7 @@
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-between">
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
@@ -600,7 +600,7 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Acesso Rápido</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Início</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre Nós</a></li>
@@ -618,7 +618,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Fique por dentro das nossas atualizações</h4>
             <p>Inscreva-se e te deixaremos antenados sobre todas novidades da HORIZON</p>
             <form action="" class="submit" method="post">
@@ -626,7 +626,7 @@
               <input type="submit" value="INSCREVER-SE">
             </form>
 
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -661,10 +661,15 @@
   <script src="assets/js/main.js"></script>
 
   <!-- Template Mail Sender JS File -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"> </script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script type="module" src="assets/js/mail.js"></script>
+
+  <!-- Mask JS File -->
+
+  <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+  <script src="assets/js/inputMaskHandler.js"></script>
 </body>
 
 </html>
