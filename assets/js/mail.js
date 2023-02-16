@@ -1,7 +1,7 @@
 class MailSender {
     constructor() {
         this.mailEl = document.querySelector('.php-email-form')
-        this.submitBtn = document.querySelector('mail-submit')
+        this.submitBtn = document.querySelector('.mail-submit')
         this.sendMail()
     }
 
